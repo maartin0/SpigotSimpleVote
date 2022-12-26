@@ -1,0 +1,19 @@
+name: SimpleVote
+version: 0.1
+main: me.maartin0.simplevote.Main
+api-version: 1.18
+authors: [ maartin0 ]
+
+commands:
+  vote:
+    usage: "Usage: /<command> <player> <board?>"
+    description: "Vote for a player, optionally specify which board to vote on if more than one votes are enabled"
+  unvote:
+    usage: "Usage: /<command> <player> <board?>"
+    description: "Remove a vote"
+  votes:
+    usage: "Usage: /<command> <board?>"
+    description: "View votes on an optional board"
+permissions:
+  simplevote.manage:
+    default: op
